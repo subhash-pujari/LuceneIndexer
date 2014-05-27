@@ -56,54 +56,6 @@ public class MainLoop {
 		
 		indexer.indexDocumentList(docList);
 		
-		
-		/*
-		for(int i=0; i<89; i++){
-			Log("startingForCommunity:"+i);
-			pubListCommunity = handler.getDataForCommunity(i);
-			it = pubListCommunity.iterator();
-			while(it.hasNext()){
-				pubList.add(it.next());
-			}
-			Log("pubListCommunitySize:"+pubListCommunity.size());
-			Log("pubListSize:"+pubList.size());
-			Log("EndingForCommunity:"+i);
-		}
-		*/
-		
-		
-		//indexer.indexDocumentList(getDocumentList(pubList));
-		
-		/*listDocument.add(new Document("doc1", "gangs of wasseypur is gud movie"));
-		listDocument.add(new Document("doc2", "titanic has good ending"));
-		listDocument.add(new Document("doc3", "I welcome you for this"));
-		*/
-		
-		/*for(int i=0;i<89;i++){
-			Log("startingForCommunity:"+i);
-			System.out.println("startingForCommunity:"+i);
-			pubList = handler.getDataForCommunity(i);
-			Log("size of Community>>"+pubList.size());
-			System.out.println("size of Community>>"+pubList.size());
-			indexer.indexDocumentList(getDocumentList(pubList));
-			System.out.println("EndingForCommunity:"+i);
-			Log("EndingForCommunity:"+i);
-		}*/
-		
-		//PublicationIndexer indexer = new PublicationIndexer();
-		//indexer.indexTest("doc1", "gangs of wasseypur is gud movie");
-		//indexer.indexTest("doc2", "titanic has good ending");
-		//indexer.indexTest("doc3", "I welcome you for this");
-		
-		
-		/*for(int i=0; i < MAX_VALUE; i++){
-			pubList = handler.getDataForCommunity(i);
-			Iterator<Publication> it = pubList.iterator();
-			while(it.hasNext()){
-				Publication publication = it.next();
-				indexer.indexPublication(publication);
-			}
-		}*/
 	}
 	
 	static ArrayList<Document> getDocumentList(ArrayList<Publication> pubList){
