@@ -15,7 +15,7 @@ public class DatabaseHandler {
 			try {
 				connect = DriverManager
 					      .getConnection("jdbc:mysql://localhost/"+databaseName+"?"
-						          + "user=tiger&password=user@123&dontTrackOpenResources=true");
+						          + "user=foo&password=foo&dontTrackOpenResources=true");
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
